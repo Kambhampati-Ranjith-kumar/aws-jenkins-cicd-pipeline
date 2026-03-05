@@ -1,0 +1,14 @@
+{
+  "name": "aws-jenkins-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "Simple Node.js application for Jenkins CI/CD pipeline using Docker and AWS EC2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ranjith",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
