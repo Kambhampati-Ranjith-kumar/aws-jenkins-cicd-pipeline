@@ -6,13 +6,14 @@ This project demonstrates a complete CI/CD pipeline using Jenkins running on AWS
 When a developer pushes code to GitHub, Jenkins automatically builds the Docker image and deploys the application.
 
 ## 🛠️ Technologies Used
-
+```
 -AWS EC2
 -Jenkins
 -Docker
 -GitHub
 -Node.js
 -Express.js
+```
 
 ## 📊 Architecture
 
@@ -39,13 +40,13 @@ The application is a simple Node.js Express server with two endpoints:
 
 ## 🔄 CI/CD Pipeline Stages
 
-Checkout source code from GitHub
+1.Checkout source code from GitHub
 
-Build Docker image
+2.Build Docker image
 
-Stop any existing running container
+3.Stop any existing running container
 
-Run new Docker container with updated image
+4.Run new Docker container with updated image
 
 ## 🔧 Jenkins Pipeline
 
