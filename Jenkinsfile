@@ -6,7 +6,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Kambhampati-Ranjith-kumar/aws-jenkins-cicd-pipeline/new/main'
+                git 'https://github.com/Kambhampati-Ranjith-kumar/aws-jenkins-cicd-pipeline.git'
             }
         }
 
